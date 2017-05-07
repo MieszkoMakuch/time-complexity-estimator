@@ -1,0 +1,792 @@
+2017-05-07 22:29:09.054 INFO estimator - import_functions_from_names: Importing a module: test_input finished successfully
+2017-05-07 22:29:09.054 INFO estimator - import_functions_from_names: Getting initializer: first_element_initializer finished successfully
+2017-05-07 22:29:09.054 INFO estimator - import_functions_from_names: Getting fun_to_test: first_element finished successfully
+2017-05-07 22:29:09.054 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:09.087 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.989660 sec
+2017-05-07 22:29:09.098 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.980120 sec
+2017-05-07 22:29:09.107 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.971081 sec
+2017-05-07 22:29:09.117 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.961801 sec
+2017-05-07 22:29:09.126 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.952627 sec
+2017-05-07 22:29:09.139 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.940829 sec
+2017-05-07 22:29:09.148 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.931798 sec
+2017-05-07 22:29:09.158 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.922271 sec
+2017-05-07 22:29:09.170 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.910442 sec
+2017-05-07 22:29:09.184 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.896945 sec
+2017-05-07 22:29:09.195 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.886367 sec
+2017-05-07 22:29:09.205 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.877187 sec
+2017-05-07 22:29:09.215 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.867139 sec
+2017-05-07 22:29:09.227 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.856221 sec
+2017-05-07 22:29:09.242 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.842027 sec
+2017-05-07 22:29:09.251 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.832723 sec
+2017-05-07 22:29:09.262 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.822573 sec
+2017-05-07 22:29:09.271 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.813552 sec
+2017-05-07 22:29:09.281 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.804555 sec
+2017-05-07 22:29:09.290 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.795374 sec
+2017-05-07 22:29:09.301 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.785748 sec
+2017-05-07 22:29:09.310 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.776607 sec
+2017-05-07 22:29:09.321 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.766212 sec
+2017-05-07 22:29:09.331 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.756810 sec
+2017-05-07 22:29:09.341 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.747528 sec
+2017-05-07 22:29:09.351 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.737661 sec
+2017-05-07 22:29:09.361 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.728523 sec
+2017-05-07 22:29:09.370 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 4.719041 sec
+2017-05-07 22:29:09.381 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 4.709276 sec
+2017-05-07 22:29:09.392 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    400, iteration: 29, time left: 4.698863 sec
+2017-05-07 22:29:09.403 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    600, iteration: 30, time left: 4.688171 sec
+2017-05-07 22:29:09.414 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    800, iteration: 31, time left: 4.677319 sec
+2017-05-07 22:29:09.426 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   1000, iteration: 32, time left: 4.665636 sec
+2017-05-07 22:29:09.440 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   2000, iteration: 33, time left: 4.652529 sec
+2017-05-07 22:29:09.456 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   4000, iteration: 34, time left: 4.636361 sec
+2017-05-07 22:29:09.480 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   6000, iteration: 35, time left: 4.613003 sec
+2017-05-07 22:29:09.505 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   8000, iteration: 36, time left: 4.588355 sec
+2017-05-07 22:29:09.535 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  10000, iteration: 37, time left: 4.558928 sec
+2017-05-07 22:29:09.584 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  20000, iteration: 38, time left: 4.510026 sec
+2017-05-07 22:29:09.675 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  40000, iteration: 39, time left: 4.419875 sec
+2017-05-07 22:29:09.804 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  60000, iteration: 40, time left: 4.291673 sec
+2017-05-07 22:29:09.972 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  80000, iteration: 41, time left: 4.123256 sec
+2017-05-07 22:29:10.182 INFO time_measurer - measure_execution_time: Measurement executed: n_elements: 100000, iteration: 42, time left: 3.914013 sec
+2017-05-07 22:29:10.189 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:10.189 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:10.189 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:10.190 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.00000000000056743765
+2017-05-07 22:29:10.190 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:10.191 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:10.191 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00000000000056630201
+2017-05-07 22:29:10.191 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:10.191 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:10.191 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00000000000056678296
+2017-05-07 22:29:10.191 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:10.191 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:10.192 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00000000000056589053
+2017-05-07 22:29:10.192 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:10.192 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:10.192 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 0.84775910502607565444
+2017-05-07 22:29:10.192 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:10.192 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:10.192 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.00000000000055058936
+2017-05-07 22:29:10.192 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:10.192 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:10.193 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00000000000056684894
+2017-05-07 22:29:10.193 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:10.193 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:10.193 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 0.87610187802106787025
+2017-05-07 22:29:10.193 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:10.193 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Constant
+2017-05-07 22:29:10.193 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:10.193 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: first_element: O(1), estimated time = 6.3E-07
+2017-05-07 22:29:10.193 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:10.195 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:10.196 INFO estimator - import_functions_from_names: Importing a module: test_input finished successfully
+2017-05-07 22:29:10.196 INFO estimator - import_functions_from_names: Getting initializer: find_max_initializer finished successfully
+2017-05-07 22:29:10.196 INFO estimator - import_functions_from_names: Getting fun_to_test: find_max finished successfully
+2017-05-07 22:29:10.196 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:10.217 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.990428 sec
+2017-05-07 22:29:10.227 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.980955 sec
+2017-05-07 22:29:10.237 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.971599 sec
+2017-05-07 22:29:10.250 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.959100 sec
+2017-05-07 22:29:10.262 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.948096 sec
+2017-05-07 22:29:10.271 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.938782 sec
+2017-05-07 22:29:10.281 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.929827 sec
+2017-05-07 22:29:10.290 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.920654 sec
+2017-05-07 22:29:10.300 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.911524 sec
+2017-05-07 22:29:10.309 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.902278 sec
+2017-05-07 22:29:10.319 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.893140 sec
+2017-05-07 22:29:10.329 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.884025 sec
+2017-05-07 22:29:10.338 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.875120 sec
+2017-05-07 22:29:10.347 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.866298 sec
+2017-05-07 22:29:10.357 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.857230 sec
+2017-05-07 22:29:10.366 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.848320 sec
+2017-05-07 22:29:10.375 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.839271 sec
+2017-05-07 22:29:10.385 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.830338 sec
+2017-05-07 22:29:10.394 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.821334 sec
+2017-05-07 22:29:10.405 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.811405 sec
+2017-05-07 22:29:10.419 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.797860 sec
+2017-05-07 22:29:10.432 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.786308 sec
+2017-05-07 22:29:10.442 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.776736 sec
+2017-05-07 22:29:10.453 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.766919 sec
+2017-05-07 22:29:10.462 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.757536 sec
+2017-05-07 22:29:10.472 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.748272 sec
+2017-05-07 22:29:10.482 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.738890 sec
+2017-05-07 22:29:10.492 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 4.729494 sec
+2017-05-07 22:29:10.502 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 4.719891 sec
+2017-05-07 22:29:10.512 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    400, iteration: 29, time left: 4.710227 sec
+2017-05-07 22:29:10.523 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    600, iteration: 30, time left: 4.699514 sec
+2017-05-07 22:29:10.534 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    800, iteration: 31, time left: 4.688323 sec
+2017-05-07 22:29:10.546 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   1000, iteration: 32, time left: 4.677045 sec
+2017-05-07 22:29:10.560 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   2000, iteration: 33, time left: 4.663262 sec
+2017-05-07 22:29:10.579 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   4000, iteration: 34, time left: 4.645250 sec
+2017-05-07 22:29:10.602 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   6000, iteration: 35, time left: 4.622903 sec
+2017-05-07 22:29:10.629 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   8000, iteration: 36, time left: 4.595812 sec
+2017-05-07 22:29:10.663 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  10000, iteration: 37, time left: 4.562403 sec
+2017-05-07 22:29:10.720 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  20000, iteration: 38, time left: 4.505883 sec
+2017-05-07 22:29:10.827 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  40000, iteration: 39, time left: 4.399209 sec
+2017-05-07 22:29:10.978 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  60000, iteration: 40, time left: 4.248280 sec
+2017-05-07 22:29:11.181 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  80000, iteration: 41, time left: 4.046206 sec
+2017-05-07 22:29:11.428 INFO time_measurer - measure_execution_time: Measurement executed: n_elements: 100000, iteration: 42, time left: 3.799046 sec
+2017-05-07 22:29:11.434 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:11.434 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:11.434 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:11.435 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.00002603629740618384
+2017-05-07 22:29:11.435 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:11.435 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:11.435 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00000004269719662666
+2017-05-07 22:29:11.435 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:11.435 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:11.435 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00000158918088743952
+2017-05-07 22:29:11.436 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:11.436 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:11.436 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00000397315179298714
+2017-05-07 22:29:11.436 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:11.436 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:11.436 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 7.78457802151885758235
+2017-05-07 22:29:11.436 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:11.436 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:11.436 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.00001347487432542081
+2017-05-07 22:29:11.437 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:11.437 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:11.437 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00000004102595367305
+2017-05-07 22:29:11.437 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:11.437 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:11.437 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 133.99034794268533232753
+2017-05-07 22:29:11.437 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:11.437 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Linear
+2017-05-07 22:29:11.437 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:11.437 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: find_max: O(n), estimated time = -3.1E-06 + 3.6E-08*n
+2017-05-07 22:29:11.437 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:11.440 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:11.440 INFO estimator - import_functions_from_names: Importing a module: test_input finished successfully
+2017-05-07 22:29:11.440 INFO estimator - import_functions_from_names: Getting initializer: sorted_wrapper_initializer finished successfully
+2017-05-07 22:29:11.440 INFO estimator - import_functions_from_names: Getting fun_to_test: sorted_wrapper finished successfully
+2017-05-07 22:29:11.440 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:11.462 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.989155 sec
+2017-05-07 22:29:11.473 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.979093 sec
+2017-05-07 22:29:11.483 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.969342 sec
+2017-05-07 22:29:11.494 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.959630 sec
+2017-05-07 22:29:11.504 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.949728 sec
+2017-05-07 22:29:11.514 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.940443 sec
+2017-05-07 22:29:11.524 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.930591 sec
+2017-05-07 22:29:11.534 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.920906 sec
+2017-05-07 22:29:11.544 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.911293 sec
+2017-05-07 22:29:11.554 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.901615 sec
+2017-05-07 22:29:11.564 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.892337 sec
+2017-05-07 22:29:11.574 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.882713 sec
+2017-05-07 22:29:11.584 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.873166 sec
+2017-05-07 22:29:11.594 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.863660 sec
+2017-05-07 22:29:11.604 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.854167 sec
+2017-05-07 22:29:11.616 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.842229 sec
+2017-05-07 22:29:11.626 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.832793 sec
+2017-05-07 22:29:11.636 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.823260 sec
+2017-05-07 22:29:11.648 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.811479 sec
+2017-05-07 22:29:11.664 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.795838 sec
+2017-05-07 22:29:11.687 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.773691 sec
+2017-05-07 22:29:11.707 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.753588 sec
+2017-05-07 22:29:11.724 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.737417 sec
+2017-05-07 22:29:11.742 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.720115 sec
+2017-05-07 22:29:11.756 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.706896 sec
+2017-05-07 22:29:11.775 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.687604 sec
+2017-05-07 22:29:11.789 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.674882 sec
+2017-05-07 22:29:11.803 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 4.661453 sec
+2017-05-07 22:29:11.814 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 4.651170 sec
+2017-05-07 22:29:11.826 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    400, iteration: 29, time left: 4.639285 sec
+2017-05-07 22:29:11.838 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    600, iteration: 30, time left: 4.627312 sec
+2017-05-07 22:29:11.853 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    800, iteration: 31, time left: 4.612796 sec
+2017-05-07 22:29:11.869 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   1000, iteration: 32, time left: 4.597919 sec
+2017-05-07 22:29:11.888 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   2000, iteration: 33, time left: 4.578820 sec
+2017-05-07 22:29:11.918 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   4000, iteration: 34, time left: 4.549147 sec
+2017-05-07 22:29:11.959 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   6000, iteration: 35, time left: 4.508610 sec
+2017-05-07 22:29:12.014 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   8000, iteration: 36, time left: 4.454973 sec
+2017-05-07 22:29:12.078 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  10000, iteration: 37, time left: 4.391041 sec
+2017-05-07 22:29:12.214 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  20000, iteration: 38, time left: 4.256161 sec
+2017-05-07 22:29:12.476 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  40000, iteration: 39, time left: 3.994655 sec
+2017-05-07 22:29:12.866 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  60000, iteration: 40, time left: 3.605120 sec
+2017-05-07 22:29:13.390 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  80000, iteration: 41, time left: 3.081258 sec
+2017-05-07 22:29:14.084 INFO time_measurer - measure_execution_time: Measurement executed: n_elements: 100000, iteration: 42, time left: 2.387857 sec
+2017-05-07 22:29:14.089 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:14.090 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:14.090 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:14.091 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.00347946014527956461
+2017-05-07 22:29:14.091 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:14.091 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:14.091 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00000875667815769854
+2017-05-07 22:29:14.091 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:14.091 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:14.091 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00016426989132848989
+2017-05-07 22:29:14.091 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:14.091 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:14.092 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00045630671935613257
+2017-05-07 22:29:14.092 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:14.092 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:14.092 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 9.56902428086040757194
+2017-05-07 22:29:14.092 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:14.092 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:14.092 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.00188492178053089330
+2017-05-07 22:29:14.092 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:14.093 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:14.093 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00000129233726923597
+2017-05-07 22:29:14.093 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:14.093 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:14.093 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 243.24233431848310260648
+2017-05-07 22:29:14.093 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:14.093 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Linearithmic
+2017-05-07 22:29:14.093 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:14.093 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: sorted_wrapper: O(n*log(n)), estimated time = -4.6E-05 + 3.7E-08*n*log(n)
+2017-05-07 22:29:14.093 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:14.096 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:14.096 INFO estimator - import_functions_from_names: Importing a module: test_input finished successfully
+2017-05-07 22:29:14.096 INFO estimator - import_functions_from_names: Getting initializer: bubble_sort_initializer finished successfully
+2017-05-07 22:29:14.096 INFO estimator - import_functions_from_names: Getting fun_to_test: bubble_sort finished successfully
+2017-05-07 22:29:14.096 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:14.117 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.990244 sec
+2017-05-07 22:29:14.127 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.980779 sec
+2017-05-07 22:29:14.137 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.971760 sec
+2017-05-07 22:29:14.146 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.962727 sec
+2017-05-07 22:29:14.156 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.953501 sec
+2017-05-07 22:29:14.166 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.944161 sec
+2017-05-07 22:29:14.180 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.930393 sec
+2017-05-07 22:29:14.193 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.918050 sec
+2017-05-07 22:29:14.203 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.907998 sec
+2017-05-07 22:29:14.214 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.898136 sec
+2017-05-07 22:29:14.224 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.888052 sec
+2017-05-07 22:29:14.235 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.878157 sec
+2017-05-07 22:29:14.245 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.868139 sec
+2017-05-07 22:29:14.256 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.857829 sec
+2017-05-07 22:29:14.267 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.847577 sec
+2017-05-07 22:29:14.281 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.833454 sec
+2017-05-07 22:29:14.293 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.821773 sec
+2017-05-07 22:29:14.306 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.809374 sec
+2017-05-07 22:29:14.319 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.796919 sec
+2017-05-07 22:29:14.336 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.780712 sec
+2017-05-07 22:29:14.352 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.765325 sec
+2017-05-07 22:29:14.368 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.749220 sec
+2017-05-07 22:29:14.391 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.727433 sec
+2017-05-07 22:29:14.410 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.709601 sec
+2017-05-07 22:29:14.433 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.686434 sec
+2017-05-07 22:29:14.458 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.661870 sec
+2017-05-07 22:29:14.482 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.638532 sec
+2017-05-07 22:29:14.511 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 4.609759 sec
+2017-05-07 22:29:14.592 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 4.529336 sec
+2017-05-07 22:29:14.924 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    400, iteration: 29, time left: 4.197784 sec
+2017-05-07 22:29:15.676 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    600, iteration: 30, time left: 3.446237 sec
+2017-05-07 22:29:17.242 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    800, iteration: 31, time left: 1.880569 sec
+2017-05-07 22:29:19.128 WARNING time_measurer - measure_execution_time: Measurement for n_elements: 1000 is performed for too long. Terminating...
+2017-05-07 22:29:19.136 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:19.136 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:19.136 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:19.137 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.02229139316414410765
+2017-05-07 22:29:19.137 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:19.137 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:19.138 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00195694858739867096
+2017-05-07 22:29:19.138 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:19.138 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:19.138 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00003201141654214680
+2017-05-07 22:29:19.138 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:19.138 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:19.138 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00031846823706616507
+2017-05-07 22:29:19.138 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:19.138 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:19.139 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 5.51364450415645812598
+2017-05-07 22:29:19.139 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:19.139 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:19.139 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.01360799924935671146
+2017-05-07 22:29:19.139 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:19.139 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:19.139 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00130817965879688794
+2017-05-07 22:29:19.139 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:19.139 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:19.140 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 98.89702666540901532244
+2017-05-07 22:29:19.140 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:19.140 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Quadratic
+2017-05-07 22:29:19.140 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:19.140 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: bubble_sort: Could not perform all measurements. Predicted time complexity: O(n^2), estimated time = -0.00026 + 2.1E-07*n^2
+2017-05-07 22:29:19.140 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:19.142 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:19.143 INFO estimator - import_functions_from_names: Importing a module: test_input finished successfully
+2017-05-07 22:29:19.143 INFO estimator - import_functions_from_names: Getting initializer: cubic_function_initializer finished successfully
+2017-05-07 22:29:19.143 INFO estimator - import_functions_from_names: Getting fun_to_test: cubic_function finished successfully
+2017-05-07 22:29:19.143 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:19.167 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.987533 sec
+2017-05-07 22:29:19.180 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.975651 sec
+2017-05-07 22:29:19.190 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.965872 sec
+2017-05-07 22:29:19.200 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.956308 sec
+2017-05-07 22:29:19.210 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.947122 sec
+2017-05-07 22:29:19.219 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.938047 sec
+2017-05-07 22:29:19.230 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.928313 sec
+2017-05-07 22:29:19.240 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.918755 sec
+2017-05-07 22:29:19.249 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.909534 sec
+2017-05-07 22:29:19.259 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.899753 sec
+2017-05-07 22:29:19.270 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.889871 sec
+2017-05-07 22:29:19.280 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.879827 sec
+2017-05-07 22:29:19.291 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.869696 sec
+2017-05-07 22:29:19.302 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.859238 sec
+2017-05-07 22:29:19.316 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.845345 sec
+2017-05-07 22:29:19.329 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.832835 sec
+2017-05-07 22:29:19.341 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.821674 sec
+2017-05-07 22:29:19.354 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.808167 sec
+2017-05-07 22:29:19.374 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.789270 sec
+2017-05-07 22:29:19.391 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.772897 sec
+2017-05-07 22:29:19.412 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.752192 sec
+2017-05-07 22:29:19.450 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.714773 sec
+2017-05-07 22:29:19.498 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.668529 sec
+2017-05-07 22:29:19.571 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.595897 sec
+2017-05-07 22:29:19.670 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.497018 sec
+2017-05-07 22:29:19.809 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.358897 sec
+2017-05-07 22:29:20.002 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.165824 sec
+2017-05-07 22:29:20.263 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 3.906149 sec
+2017-05-07 22:29:22.077 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 2.091725 sec
+2017-05-07 22:29:24.176 WARNING time_measurer - measure_execution_time: Measurement for n_elements: 400 is performed for too long. Terminating...
+2017-05-07 22:29:24.185 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:24.185 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:24.185 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:24.186 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.03024752834281851585
+2017-05-07 22:29:24.187 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:24.187 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:24.187 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00845931753680715173
+2017-05-07 22:29:24.187 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:24.187 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:24.187 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00101835381084315092
+2017-05-07 22:29:24.188 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:24.188 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:24.188 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00000234468631650178
+2017-05-07 22:29:24.188 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:24.188 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:24.188 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 4.39437013086773387016
+2017-05-07 22:29:24.188 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:24.188 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:24.189 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.02288144723981443140
+2017-05-07 22:29:24.189 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:24.189 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:24.189 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00617238684924815116
+2017-05-07 22:29:24.189 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:24.189 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:24.189 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 53.59582382386427923393
+2017-05-07 22:29:24.189 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:24.189 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Cubic
+2017-05-07 22:29:24.189 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:24.190 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: cubic_function: Could not perform all measurements. Predicted time complexity: O(n^3), estimated time = 0.00019 + 2.2E-08*n^3
+2017-05-07 22:29:24.190 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:24.192 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:24.193 INFO estimator - import_functions_from_names: Importing a module: test_input finished successfully
+2017-05-07 22:29:24.194 INFO estimator - import_functions_from_names: Getting initializer: permute_initializer finished successfully
+2017-05-07 22:29:24.194 INFO estimator - import_functions_from_names: Getting fun_to_test: permute finished successfully
+2017-05-07 22:29:24.194 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:24.215 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 69.989983 sec
+2017-05-07 22:29:24.226 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 69.979375 sec
+2017-05-07 22:29:24.236 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 69.970284 sec
+2017-05-07 22:29:24.246 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 69.961076 sec
+2017-05-07 22:29:24.256 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 69.950904 sec
+2017-05-07 22:29:24.273 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 69.934949 sec
+2017-05-07 22:29:24.330 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 69.877384 sec
+2017-05-07 22:29:24.755 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 69.452848 sec
+2017-05-07 22:29:28.420 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 65.788939 sec
+2017-05-07 22:29:36.951 INFO estimator - import_functions_from_names: Importing a module: example_input finished successfully
+2017-05-07 22:29:36.952 INFO estimator - import_functions_from_names: Getting initializer: first_element_initializer finished successfully
+2017-05-07 22:29:36.952 INFO estimator - import_functions_from_names: Getting fun_to_test: first_element finished successfully
+2017-05-07 22:29:36.952 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:37.003 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.985581 sec
+2017-05-07 22:29:37.022 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.967667 sec
+2017-05-07 22:29:37.036 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.954543 sec
+2017-05-07 22:29:37.049 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.942610 sec
+2017-05-07 22:29:37.063 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.929737 sec
+2017-05-07 22:29:37.076 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.917114 sec
+2017-05-07 22:29:37.086 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.907471 sec
+2017-05-07 22:29:37.100 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.894171 sec
+2017-05-07 22:29:37.112 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.882119 sec
+2017-05-07 22:29:37.127 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.868418 sec
+2017-05-07 22:29:37.140 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.855981 sec
+2017-05-07 22:29:37.151 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.845812 sec
+2017-05-07 22:29:37.201 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.795575 sec
+2017-05-07 22:29:37.228 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.769164 sec
+2017-05-07 22:29:37.245 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.753785 sec
+2017-05-07 22:29:37.262 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.737684 sec
+2017-05-07 22:29:37.280 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.720249 sec
+2017-05-07 22:29:37.298 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.703431 sec
+2017-05-07 22:29:37.319 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.683901 sec
+2017-05-07 22:29:37.335 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.668896 sec
+2017-05-07 22:29:37.355 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.650898 sec
+2017-05-07 22:29:37.367 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.638847 sec
+2017-05-07 22:29:37.378 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.628831 sec
+2017-05-07 22:29:37.388 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.618805 sec
+2017-05-07 22:29:37.399 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.609193 sec
+2017-05-07 22:29:37.411 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.598049 sec
+2017-05-07 22:29:37.432 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.577635 sec
+2017-05-07 22:29:37.450 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 4.561300 sec
+2017-05-07 22:29:37.466 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 4.546465 sec
+2017-05-07 22:29:37.483 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    400, iteration: 29, time left: 4.530048 sec
+2017-05-07 22:29:37.501 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    600, iteration: 30, time left: 4.512401 sec
+2017-05-07 22:29:37.522 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    800, iteration: 31, time left: 4.492557 sec
+2017-05-07 22:29:37.538 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   1000, iteration: 32, time left: 4.477423 sec
+2017-05-07 22:29:37.552 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   2000, iteration: 33, time left: 4.463573 sec
+2017-05-07 22:29:37.569 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   4000, iteration: 34, time left: 4.446715 sec
+2017-05-07 22:29:37.591 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   6000, iteration: 35, time left: 4.425987 sec
+2017-05-07 22:29:37.616 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   8000, iteration: 36, time left: 4.401116 sec
+2017-05-07 22:29:37.651 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  10000, iteration: 37, time left: 4.366721 sec
+2017-05-07 22:29:37.699 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  20000, iteration: 38, time left: 4.319035 sec
+2017-05-07 22:29:37.790 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  40000, iteration: 39, time left: 4.228486 sec
+2017-05-07 22:29:37.918 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  60000, iteration: 40, time left: 4.101229 sec
+2017-05-07 22:29:38.087 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  80000, iteration: 41, time left: 3.932217 sec
+2017-05-07 22:29:38.294 INFO time_measurer - measure_execution_time: Measurement executed: n_elements: 100000, iteration: 42, time left: 3.726188 sec
+2017-05-07 22:29:38.300 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:38.300 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:38.301 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:38.301 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.00000000000239290106
+2017-05-07 22:29:38.301 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:38.301 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:38.302 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00000000000237600024
+2017-05-07 22:29:38.302 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:38.302 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:38.302 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00000000000238154005
+2017-05-07 22:29:38.302 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:38.302 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:38.302 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00000000000238416918
+2017-05-07 22:29:38.302 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:38.302 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:38.303 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 3.22957905102637088390
+2017-05-07 22:29:38.303 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:38.303 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:38.303 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.00000000000238844664
+2017-05-07 22:29:38.303 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:38.303 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:38.303 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00000000000237655966
+2017-05-07 22:29:38.303 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:38.303 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:38.304 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 3.22657232341115829399
+2017-05-07 22:29:38.304 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:38.304 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Constant
+2017-05-07 22:29:38.304 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:38.304 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: first_element: O(1), estimated time = 7.7E-07
+2017-05-07 22:29:38.304 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:38.306 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:38.306 INFO estimator - import_functions_from_names: Importing a module: example_input finished successfully
+2017-05-07 22:29:38.307 INFO estimator - import_functions_from_names: Getting initializer: find_max_initializer finished successfully
+2017-05-07 22:29:38.307 INFO estimator - import_functions_from_names: Getting fun_to_test: find_max finished successfully
+2017-05-07 22:29:38.307 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:38.327 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.990489 sec
+2017-05-07 22:29:38.337 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.981619 sec
+2017-05-07 22:29:38.346 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.972537 sec
+2017-05-07 22:29:38.356 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.963078 sec
+2017-05-07 22:29:38.366 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.953970 sec
+2017-05-07 22:29:38.375 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.944737 sec
+2017-05-07 22:29:38.385 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.935474 sec
+2017-05-07 22:29:38.394 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.926585 sec
+2017-05-07 22:29:38.404 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.917554 sec
+2017-05-07 22:29:38.415 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.906962 sec
+2017-05-07 22:29:38.425 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.897545 sec
+2017-05-07 22:29:38.438 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.885027 sec
+2017-05-07 22:29:38.449 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.874473 sec
+2017-05-07 22:29:38.458 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.865548 sec
+2017-05-07 22:29:38.468 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.856156 sec
+2017-05-07 22:29:38.478 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.846963 sec
+2017-05-07 22:29:38.487 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.837820 sec
+2017-05-07 22:29:38.497 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.828674 sec
+2017-05-07 22:29:38.507 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.818949 sec
+2017-05-07 22:29:38.523 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.803953 sec
+2017-05-07 22:29:38.534 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.793792 sec
+2017-05-07 22:29:38.543 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.784922 sec
+2017-05-07 22:29:38.553 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.775673 sec
+2017-05-07 22:29:38.563 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.766598 sec
+2017-05-07 22:29:38.572 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.757344 sec
+2017-05-07 22:29:38.582 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.748015 sec
+2017-05-07 22:29:38.592 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.738458 sec
+2017-05-07 22:29:38.602 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 4.729086 sec
+2017-05-07 22:29:38.612 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 4.719217 sec
+2017-05-07 22:29:38.624 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    400, iteration: 29, time left: 4.708172 sec
+2017-05-07 22:29:38.635 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    600, iteration: 30, time left: 4.697071 sec
+2017-05-07 22:29:38.646 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    800, iteration: 31, time left: 4.686217 sec
+2017-05-07 22:29:38.658 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   1000, iteration: 32, time left: 4.674892 sec
+2017-05-07 22:29:38.672 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   2000, iteration: 33, time left: 4.661159 sec
+2017-05-07 22:29:38.690 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   4000, iteration: 34, time left: 4.643637 sec
+2017-05-07 22:29:38.713 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   6000, iteration: 35, time left: 4.620979 sec
+2017-05-07 22:29:38.742 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   8000, iteration: 36, time left: 4.592302 sec
+2017-05-07 22:29:38.776 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  10000, iteration: 37, time left: 4.558968 sec
+2017-05-07 22:29:38.835 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  20000, iteration: 38, time left: 4.500856 sec
+2017-05-07 22:29:38.938 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  40000, iteration: 39, time left: 4.398090 sec
+2017-05-07 22:29:39.092 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  60000, iteration: 40, time left: 4.245358 sec
+2017-05-07 22:29:39.290 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  80000, iteration: 41, time left: 4.048681 sec
+2017-05-07 22:29:39.532 INFO time_measurer - measure_execution_time: Measurement executed: n_elements: 100000, iteration: 42, time left: 3.806968 sec
+2017-05-07 22:29:39.538 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:39.538 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:39.538 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:39.539 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.00002406329925954839
+2017-05-07 22:29:39.539 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:39.539 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:39.539 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00000001444140673733
+2017-05-07 22:29:39.540 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:39.540 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:39.540 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00000174039760014547
+2017-05-07 22:29:39.540 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:39.540 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:39.540 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00000397199021794748
+2017-05-07 22:29:39.540 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:39.540 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:39.540 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 7.60806380926680869692
+2017-05-07 22:29:39.540 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:39.540 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:39.541 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.00001198672715190896
+2017-05-07 22:29:39.541 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:39.541 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:39.541 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00000006259997443516
+2017-05-07 22:29:39.541 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:39.541 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:39.541 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 137.47655144085297251877
+2017-05-07 22:29:39.541 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:39.541 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Linear
+2017-05-07 22:29:39.541 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:39.542 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: find_max: O(n), estimated time = 3.8E-06 + 3.5E-08*n
+2017-05-07 22:29:39.542 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:39.544 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:39.544 INFO estimator - import_functions_from_names: Importing a module: example_input finished successfully
+2017-05-07 22:29:39.544 INFO estimator - import_functions_from_names: Getting initializer: sorted_wrapper_initializer finished successfully
+2017-05-07 22:29:39.544 INFO estimator - import_functions_from_names: Getting fun_to_test: sorted_wrapper finished successfully
+2017-05-07 22:29:39.544 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:39.566 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.990427 sec
+2017-05-07 22:29:39.576 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.981116 sec
+2017-05-07 22:29:39.585 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.972045 sec
+2017-05-07 22:29:39.595 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.962758 sec
+2017-05-07 22:29:39.605 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.953591 sec
+2017-05-07 22:29:39.614 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.944331 sec
+2017-05-07 22:29:39.624 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.935187 sec
+2017-05-07 22:29:39.634 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.925151 sec
+2017-05-07 22:29:39.644 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.915931 sec
+2017-05-07 22:29:39.653 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.906834 sec
+2017-05-07 22:29:39.663 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.897546 sec
+2017-05-07 22:29:39.673 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.888500 sec
+2017-05-07 22:29:39.682 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.879324 sec
+2017-05-07 22:29:39.692 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.870243 sec
+2017-05-07 22:29:39.701 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.861118 sec
+2017-05-07 22:29:39.712 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.851145 sec
+2017-05-07 22:29:39.722 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.841489 sec
+2017-05-07 22:29:39.732 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.831590 sec
+2017-05-07 22:29:39.742 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.822229 sec
+2017-05-07 22:29:39.755 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.810001 sec
+2017-05-07 22:29:39.768 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.797462 sec
+2017-05-07 22:29:39.783 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.782417 sec
+2017-05-07 22:29:39.797 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.769110 sec
+2017-05-07 22:29:39.812 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.754663 sec
+2017-05-07 22:29:39.828 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.739017 sec
+2017-05-07 22:29:39.844 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.724133 sec
+2017-05-07 22:29:39.859 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.709673 sec
+2017-05-07 22:29:39.872 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 4.696313 sec
+2017-05-07 22:29:39.886 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 4.682956 sec
+2017-05-07 22:29:39.899 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    400, iteration: 29, time left: 4.670974 sec
+2017-05-07 22:29:39.912 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    600, iteration: 30, time left: 4.658936 sec
+2017-05-07 22:29:39.926 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    800, iteration: 31, time left: 4.644952 sec
+2017-05-07 22:29:39.948 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   1000, iteration: 32, time left: 4.623632 sec
+2017-05-07 22:29:39.969 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   2000, iteration: 33, time left: 4.603408 sec
+2017-05-07 22:29:39.999 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   4000, iteration: 34, time left: 4.573825 sec
+2017-05-07 22:29:40.038 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   6000, iteration: 35, time left: 4.534928 sec
+2017-05-07 22:29:40.090 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:   8000, iteration: 36, time left: 4.484312 sec
+2017-05-07 22:29:40.153 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  10000, iteration: 37, time left: 4.421565 sec
+2017-05-07 22:29:40.277 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  20000, iteration: 38, time left: 4.297521 sec
+2017-05-07 22:29:40.541 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  40000, iteration: 39, time left: 4.033917 sec
+2017-05-07 22:29:40.924 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  60000, iteration: 40, time left: 3.651189 sec
+2017-05-07 22:29:41.462 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:  80000, iteration: 41, time left: 3.114047 sec
+2017-05-07 22:29:42.138 INFO time_measurer - measure_execution_time: Measurement executed: n_elements: 100000, iteration: 42, time left: 2.438272 sec
+2017-05-07 22:29:42.145 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:42.145 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:42.145 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:42.146 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.00351179215580691567
+2017-05-07 22:29:42.147 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:42.147 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:42.147 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00001507739936781901
+2017-05-07 22:29:42.147 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:42.147 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:42.147 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00014632213312873853
+2017-05-07 22:29:42.147 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:42.147 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:42.148 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00043691405987433910
+2017-05-07 22:29:42.148 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:42.148 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:42.148 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 9.49019827027121465335
+2017-05-07 22:29:42.148 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:42.148 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:42.148 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.00193419453036580919
+2017-05-07 22:29:42.148 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:42.148 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:42.149 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00000367126776286726
+2017-05-07 22:29:42.149 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:42.149 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:42.149 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 242.16106131312392335531
+2017-05-07 22:29:42.149 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:42.149 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Linearithmic
+2017-05-07 22:29:42.149 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:42.149 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: sorted_wrapper: O(n*log(n)), estimated time = -8.3E-05 + 3.7E-08*n*log(n)
+2017-05-07 22:29:42.149 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:42.152 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:42.152 INFO estimator - import_functions_from_names: Importing a module: example_input finished successfully
+2017-05-07 22:29:42.152 INFO estimator - import_functions_from_names: Getting initializer: bubble_sort_initializer finished successfully
+2017-05-07 22:29:42.152 INFO estimator - import_functions_from_names: Getting fun_to_test: bubble_sort finished successfully
+2017-05-07 22:29:42.152 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:42.181 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.985925 sec
+2017-05-07 22:29:42.195 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.972960 sec
+2017-05-07 22:29:42.208 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.960816 sec
+2017-05-07 22:29:42.222 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.947215 sec
+2017-05-07 22:29:42.233 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.936578 sec
+2017-05-07 22:29:42.243 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.927230 sec
+2017-05-07 22:29:42.253 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.917887 sec
+2017-05-07 22:29:42.263 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.908611 sec
+2017-05-07 22:29:42.272 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.899153 sec
+2017-05-07 22:29:42.282 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.889863 sec
+2017-05-07 22:29:42.293 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.879067 sec
+2017-05-07 22:29:42.304 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.869093 sec
+2017-05-07 22:29:42.314 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.859904 sec
+2017-05-07 22:29:42.323 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.850511 sec
+2017-05-07 22:29:42.333 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.841116 sec
+2017-05-07 22:29:42.343 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.831620 sec
+2017-05-07 22:29:42.353 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.821981 sec
+2017-05-07 22:29:42.365 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.810600 sec
+2017-05-07 22:29:42.379 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.796863 sec
+2017-05-07 22:29:42.395 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.781763 sec
+2017-05-07 22:29:42.410 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.766845 sec
+2017-05-07 22:29:42.429 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.748902 sec
+2017-05-07 22:29:42.447 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.731142 sec
+2017-05-07 22:29:42.468 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.711292 sec
+2017-05-07 22:29:42.494 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.685894 sec
+2017-05-07 22:29:42.518 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.662111 sec
+2017-05-07 22:29:42.541 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.639365 sec
+2017-05-07 22:29:42.569 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 4.612288 sec
+2017-05-07 22:29:42.641 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 4.540602 sec
+2017-05-07 22:29:42.951 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    400, iteration: 29, time left: 4.230848 sec
+2017-05-07 22:29:43.737 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    600, iteration: 30, time left: 3.445102 sec
+2017-05-07 22:29:45.396 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    800, iteration: 31, time left: 1.786505 sec
+2017-05-07 22:29:47.190 WARNING time_measurer - measure_execution_time: Measurement for n_elements: 1000 is performed for too long. Terminating...
+2017-05-07 22:29:47.199 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:47.200 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:47.200 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:47.201 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.02482989194311389924
+2017-05-07 22:29:47.201 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:47.201 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:47.202 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00250968747524572908
+2017-05-07 22:29:47.202 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:47.202 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:47.203 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00009720229641027291
+2017-05-07 22:29:47.203 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:47.203 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:47.204 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00021964356020875514
+2017-05-07 22:29:47.204 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:47.204 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:47.204 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 5.40360161947048922571
+2017-05-07 22:29:47.204 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:47.204 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:47.204 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.01544478567247399049
+2017-05-07 22:29:47.204 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:47.204 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:47.205 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00174704133525090686
+2017-05-07 22:29:47.205 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:47.205 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:47.205 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 87.30998113039213137654
+2017-05-07 22:29:47.205 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:47.205 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Quadratic
+2017-05-07 22:29:47.205 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:47.205 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: bubble_sort: Could not perform all measurements. Predicted time complexity: O(n^2), estimated time = -0.00042 + 2.2E-07*n^2
+2017-05-07 22:29:47.205 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:47.208 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:47.209 INFO estimator - import_functions_from_names: Importing a module: example_input finished successfully
+2017-05-07 22:29:47.209 INFO estimator - import_functions_from_names: Getting initializer: cubic_function_initializer finished successfully
+2017-05-07 22:29:47.209 INFO estimator - import_functions_from_names: Getting fun_to_test: cubic_function finished successfully
+2017-05-07 22:29:47.209 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:47.232 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 4.989399 sec
+2017-05-07 22:29:47.244 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 4.978434 sec
+2017-05-07 22:29:47.254 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 4.968590 sec
+2017-05-07 22:29:47.265 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 4.958292 sec
+2017-05-07 22:29:47.276 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 4.947943 sec
+2017-05-07 22:29:47.287 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 4.937851 sec
+2017-05-07 22:29:47.298 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 4.927280 sec
+2017-05-07 22:29:47.311 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 4.914817 sec
+2017-05-07 22:29:47.322 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 4.903727 sec
+2017-05-07 22:29:47.334 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 4.892950 sec
+2017-05-07 22:29:47.345 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     11, iteration: 10, time left: 4.882036 sec
+2017-05-07 22:29:47.357 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     12, iteration: 11, time left: 4.870851 sec
+2017-05-07 22:29:47.368 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     13, iteration: 12, time left: 4.859821 sec
+2017-05-07 22:29:47.381 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     14, iteration: 13, time left: 4.847983 sec
+2017-05-07 22:29:47.393 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     15, iteration: 14, time left: 4.835680 sec
+2017-05-07 22:29:47.406 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     16, iteration: 15, time left: 4.823853 sec
+2017-05-07 22:29:47.418 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     17, iteration: 16, time left: 4.811639 sec
+2017-05-07 22:29:47.433 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     18, iteration: 17, time left: 4.797502 sec
+2017-05-07 22:29:47.449 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     19, iteration: 18, time left: 4.781682 sec
+2017-05-07 22:29:47.464 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     20, iteration: 19, time left: 4.767848 sec
+2017-05-07 22:29:47.484 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     30, iteration: 20, time left: 4.747854 sec
+2017-05-07 22:29:47.520 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     40, iteration: 21, time left: 4.712821 sec
+2017-05-07 22:29:47.578 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     50, iteration: 22, time left: 4.655472 sec
+2017-05-07 22:29:47.660 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     60, iteration: 23, time left: 4.573923 sec
+2017-05-07 22:29:47.762 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     70, iteration: 24, time left: 4.471774 sec
+2017-05-07 22:29:47.905 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     80, iteration: 25, time left: 4.329936 sec
+2017-05-07 22:29:48.097 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     90, iteration: 26, time left: 4.138338 sec
+2017-05-07 22:29:48.357 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    100, iteration: 27, time left: 3.878949 sec
+2017-05-07 22:29:50.293 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:    200, iteration: 28, time left: 1.942793 sec
+2017-05-07 22:29:52.241 WARNING time_measurer - measure_execution_time: Measurement for n_elements: 400 is performed for too long. Terminating...
+2017-05-07 22:29:52.249 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:29:52.249 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:29:52.249 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:52.250 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 0.03064149571452800744
+2017-05-07 22:29:52.250 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:52.251 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:52.251 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 0.00847907582022756033
+2017-05-07 22:29:52.251 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:52.251 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:52.251 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 0.00099771308243705730
+2017-05-07 22:29:52.251 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:52.251 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:52.251 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 0.00000437244819540331
+2017-05-07 22:29:52.251 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:52.251 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:52.252 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 4.68974378861136909080
+2017-05-07 22:29:52.252 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:52.252 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:52.252 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 0.02310898667890277924
+2017-05-07 22:29:52.252 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:52.252 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:52.252 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 0.00617182614636923189
+2017-05-07 22:29:52.252 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:52.252 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:29:52.252 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 52.56439131390682462097
+2017-05-07 22:29:52.253 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:29:52.253 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Cubic
+2017-05-07 22:29:52.253 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:29:52.253 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: cubic_function: Could not perform all measurements. Predicted time complexity: O(n^3), estimated time = 0.00026 + 2.2E-08*n^3
+2017-05-07 22:29:52.253 INFO logging_decorant - wrapper: Exiting estimate_time_complexity
+2017-05-07 22:29:52.256 INFO logging_decorant - wrapper: Entering estimate_time_complexity
+2017-05-07 22:29:52.256 INFO estimator - import_functions_from_names: Importing a module: example_input finished successfully
+2017-05-07 22:29:52.257 INFO estimator - import_functions_from_names: Getting initializer: permute_initializer finished successfully
+2017-05-07 22:29:52.257 INFO estimator - import_functions_from_names: Getting fun_to_test: permute finished successfully
+2017-05-07 22:29:52.257 INFO logging_decorant - wrapper: Entering measure_execution_time
+2017-05-07 22:29:52.279 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      1, iteration:  0, time left: 69.990343 sec
+2017-05-07 22:29:52.290 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      2, iteration:  1, time left: 69.980346 sec
+2017-05-07 22:29:52.299 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      3, iteration:  2, time left: 69.970994 sec
+2017-05-07 22:29:52.309 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      4, iteration:  3, time left: 69.961667 sec
+2017-05-07 22:29:52.320 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      5, iteration:  4, time left: 69.951561 sec
+2017-05-07 22:29:52.336 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      6, iteration:  5, time left: 69.935704 sec
+2017-05-07 22:29:52.391 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      7, iteration:  6, time left: 69.881144 sec
+2017-05-07 22:29:52.816 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      8, iteration:  7, time left: 69.456997 sec
+2017-05-07 22:29:56.536 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:      9, iteration:  8, time left: 65.737607 sec
+2017-05-07 22:30:34.413 INFO time_measurer - measure_execution_time: Measurement executed: n_elements:     10, iteration:  9, time left: 27.860147 sec
+2017-05-07 22:31:02.284 WARNING time_measurer - measure_execution_time: Measurement for n_elements: 11 is performed for too long. Terminating...
+2017-05-07 22:31:03.130 INFO logging_decorant - wrapper: Exiting measure_execution_time
+2017-05-07 22:31:03.130 INFO logging_decorant - wrapper: Entering fit_complexity_class
+2017-05-07 22:31:03.131 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:31:03.132 INFO complexities - compute_coefficients: Computed coefficients for        Constant complexity class. Residuals: 12.24183506385807085337
+2017-05-07 22:31:03.132 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:31:03.133 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:31:03.133 INFO complexities - compute_coefficients: Computed coefficients for          Linear complexity class. Residuals: 8.27901564170462656023
+2017-05-07 22:31:03.133 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:31:03.133 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:31:03.133 INFO complexities - compute_coefficients: Computed coefficients for       Quadratic complexity class. Residuals: 6.53932645031113501943
+2017-05-07 22:31:03.134 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:31:03.134 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:31:03.134 INFO complexities - compute_coefficients: Computed coefficients for           Cubic complexity class. Residuals: 5.11288557512195929178
+2017-05-07 22:31:03.134 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:31:03.134 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:31:03.134 INFO complexities - compute_coefficients: Computed coefficients for      Polynomial complexity class. Residuals: 43.39640934077098677335
+2017-05-07 22:31:03.134 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:31:03.134 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:31:03.134 INFO complexities - compute_coefficients: Computed coefficients for     Logarithmic complexity class. Residuals: 10.10577787485889977859
+2017-05-07 22:31:03.134 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:31:03.134 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:31:03.135 INFO complexities - compute_coefficients: Computed coefficients for    Linearithmic complexity class. Residuals: 7.58158029463508142953
+2017-05-07 22:31:03.135 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:31:03.135 INFO logging_decorant - wrapper: Entering compute_coefficients
+2017-05-07 22:31:03.135 INFO complexities - compute_coefficients: Computed coefficients for     Exponential complexity class. Residuals: 4.42480312780425855124
+2017-05-07 22:31:03.135 INFO logging_decorant - wrapper: Exiting compute_coefficients
+2017-05-07 22:31:03.135 INFO complexity_fitter - fit_complexity_class: Fitted the most suitable complexity class: Exponential
+2017-05-07 22:31:03.135 INFO logging_decorant - wrapper: Exiting fit_complexity_class
+2017-05-07 22:31:03.136 INFO estimator - estimate_time_complexity: Finished estimating time complexity. Result: permute: Could not perform all measurements. Predicted time complexity: O(x^n), estimated time = -17 + 1.7^n
+2017-05-07 22:31:03.136 INFO logging_decorant - wrapper: Exiting estimate_time_complexity

@@ -7,7 +7,7 @@ with open('README.rst') as readme_file:
 
 setup(
     name='time_complexity_estimator',
-    version='0.1',
+    version='0.2',
     description='Estimate time complexity from execution time',
     author='Mieszko Makuch',
     author_email='mmakuch@googlemail.com',

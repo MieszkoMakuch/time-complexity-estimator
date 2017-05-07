@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Zadanie 02
 
 W celu oszacowania czasu wykonania programu kuszące jest czasem zalozyc liniowa złożoność obliczeniowa.
@@ -9,10 +10,31 @@ python -m timeit -s "s = list(range(1000))" "sorted(s)"                         
 Próbując uogólnić ten wynik na listę składająca sie z 10^6 elementów spodziewalibyśmy się wyniku okolo 18 ms. Dokonując pomiaru otrzymujemy jednak czas o około 35% większy: 
 
 python -m timeit -s "s = list(range(1000000))" "sorted(s)"                                                                                                10 loops, best of 3: 24.5 msec per loop
+=======
+# Programowanie w jezyku Python 2016/2017 zadanie 2
+
+W celu oszacowania czasu wykonania programu kuszące jest czasem zalozyc liniowa złożoność obliczeniowa.
+Czas sortowania możemy oszacować monotonicznej listy na 17.9 us dla 1000 elementów:
+
+```bash
+python -m timeit -s "s = list(range(1000))" "sorted(s)"
+100000 loops, best of 3: 17.9 usec per loop
+```
+
+
+Próbując uogólnić ten wynik na listę składająca sie z 10^6 elementów spodziewalibyśmy się wyniku okolo 18 ms. Dokonując pomiaru otrzymujemy jednak czas o około 35% większy: 
+
+```bash
+python -m timeit -s "s = list(range(1000000))" "sorted(s)"
+10 loops, best of 3: 24.5 msec per loop
+```
+
+>>>>>>> e713359d0733811e984903f0386470281a897134
 
 Przygotuj program do automatycznego wyznaczania złożoności obliczeniowej.
 
 Program ten powinien otrzymywać na wejściu:
+<<<<<<< HEAD
 Inicjalizacje odpowiednich struktur
 Funkcje lub klase odpowiedzialna za wykonanie algorytmu
 Kod odpowiedzialny za posprzątanie
@@ -21,16 +43,35 @@ Jako wynik powinniśmy otrzymać:
 Informacje o przypuszczalnej klasie złożoności obliczeniowej ( O(n), O(n log(n)), O(n^2))
 Funkcje umożliwiające przewidywanie jaki będzie czas wykonania programu dla zadanej wielkości problemu
 Funkcję umożliwiającą przewidywanie jaki jest maksymalny rozmiar problemu obliczeniowego dla zadanego czasu
+=======
+ -  Inicjalizacje odpowiednich struktur
+ - Funkcje lub klase odpowiedzialna za wykonanie algorytmu
+ - Kod odpowiedzialny za posprzątanie
+
+Jako wynik powinniśmy otrzymać:
+ - Informacje o przypuszczalnej klasie złożoności obliczeniowej ( O(n), O(n log(n)), O(n^2))
+ - Funkcje umożliwiające przewidywanie jaki będzie czas wykonania programu dla zadanej wielkości problemu
+ - Funkcję umożliwiającą przewidywanie jaki jest maksymalny rozmiar problemu obliczeniowego dla zadanego czasu
+>>>>>>> e713359d0733811e984903f0386470281a897134
 
 Wyznaczanie złożoności niektórych algorytmów może trwać bardzo długo. Aby umożliwić wykonanie programu w rozsądnym czasie program powinien posiadać ograniczenie w postaci parametru “timeout” ustawionego domyślnie na 30 sekund. W przypadku nie otrzymania ostatecznego wyniku w założonym czasie program powinien zwrócić wynik cząstkowy (np “złożoność gorsza niż O(n)”).
 
 Program powinien dać się zainstalować jako pakiet pip bezpośrednio z repozytorium (np używając komendy 
+<<<<<<< HEAD
 pip install git+https://github.com/AGHPythonCourse2017/zad01-grzanka.git)
 
 Program powinien wykorzystywać następujące elementy:
 Logger
 dekoratory
 własne wyjątki
+=======
+`pip install git+https://github.com/AGHPythonCourse2017/zad01-grzanka.git`)
+
+Program powinien wykorzystywać następujące elementy:
+ - Logger
+ - dekoratory
+ - własne wyjątki
+>>>>>>> e713359d0733811e984903f0386470281a897134
 
 Program powinien przejść test flake8 (zgodność z PEP8).
 
@@ -40,4 +81,8 @@ Dodatkowo trzeba wykonać trzy recenzje rozwiązań zadania nr 1 i umieścić w 
 
 Tresc zadania w Google Drive: https://goo.gl/r87sPE
 
+<<<<<<< HEAD
 Termin oddania zadania: 8 maja 2017, 20:00
+=======
+Termin oddania zadania: 8 maja 2017, 20:00
+>>>>>>> e713359d0733811e984903f0386470281a897134

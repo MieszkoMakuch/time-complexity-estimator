@@ -1,1 +1,118 @@
+1. Chimstaz: 
+	github: https://github.com/AGHPythonCourse2017/zad01-Chimstaz
+	pull request z recenzją: https://github.com/AGHPythonCourse2017/zad01-Chimstaz/pull/1
+	treść recenzji:
 
+### Co oceniam pozytywnie
+- Kod jest logicznie podzielony na moduły. Klasy i funkcje mają odpowiednio dobrane odpowiedzialności, są dobrze podzielone tematycznie (z drobnymi wyjątkami, o których mowa w uwagach) 
+- W projekcie zawarta jest treściwa i zwięzła dokumentacja, która opisuje funkcjonalności klas, metod i modułów
+- Całkiem zaawansowany i przemyślany algorytm, przez co generowane utwory nie brzmią jak przypadkowo dobrane dźwięki
+- Użycie parametrów nazwanych w funkcjach o dużej ilości argumentów, co poprawia czytelność. Przykładowo:
+```python
+mm = MidiMusic(
+    seed=args.seed,
+    musicLength=args.musicLength,
+    motiveLength=args.ml,
+    notesPerBar=args.notesPerBar,
+    tempo=args.tempo,
+    basePitch=args.pitch,
+    numberOfBassLines=args.nb,
+    bassLinesOptions=bassOpt,
+    numberOfMelodyLines=args.nm,
+    melodyLinesOptions=melodyOpt,
+    chordInstrument=args.chordInstrument
+    )
+```
+- Rozbudowany parser argumentów, dzięki któremu istnieje możliwość konfiguracji melodii na wiele sposobów. Dodatkowa pomoc i opis dla większości argumentów pomaga użytkownikowi prawidłowo wywołać program
+- Zastosowanie szerokiej gamy instrumentów, generowanie głównej melodii i basów osobno urozmaica tworzony utwór
+
+### Moje uwagi:
+- Konwencja nazewnictwa nie są do końca zgodne z PEP8 - argumenty i nazwy funkcji pisane są camel case. Lepiej, gdyby były pisane małymi literami i oddzielane znakiem podkreślenia
+- Niektóre funkcje są bardzo rozbudowane, co nasuwałoby pomysł, aby je rozdzielić. Przykładowo funkcję `generate` z klasy `MidiMusic` można by rozdzielić na funkcję:
+    - odpowiedzialną za generowanie bassu
+    - odpowiedzialną za generowanie melodii
+    - odpowiedzialną za tworzenie pliku Midi
+- Niektóre linie przekraczają limit 120 znaków. Przykładowo we fragmencie: `ginstrument = coalesce(self.instrument, random.choice(list(chain(pI.Ethnic, pI.Guitar, pI.Organ, pI.Pipe, pI.Piano, pI.Strings, pI.Reed))))` można by rozważyć przeniesienie części argumentów do nowej lini (mimo, ze ograniczenie ilości znaków jest regułą dość dyskusyjną i czasem nie idzie w parze z treściwymi nazwami funkcji czy zmiennych, co wg mnie jest bardziej istotne)
+
+### Podsumowując
+Projekt jest obszerny i został wykonany bardzo starannie. Generowane melodie nie brzmią przypadkowo, są bardzo zróżnicowane co dla większości użytkowników mogłoby być największą zaletą. Podział na klasy i moduły poprawia czytelność co zdecydowanie pomogłoby przy ewentualnej refaktoryzacji czy rozbudowie programu. Projekt oceniam na bardzo dobry.
+
+
+
+2. moskalap 
+	github: https://github.com/AGHPythonCourse2017/zad01-moskalap
+	pull request z recenzją: https://github.com/AGHPythonCourse2017/zad01-moskalap/pull/1
+
+### Co oceniam pozytywnie
+- Kod jest logicznie podzielony na moduły. Klasy i funkcje mają odpowiednio dobrane odpowiedzialności, są dobrze podzielone tematycznie (z drobnymi wyjątkami o których mowa w uwagach) 
+- Konwencja nazewnictwa są do końca zgodne z PEP8 - argumenty i nazwy funkcji pisane są  małymi literami i oddzielane znakiem podkreślenia
+- Rozbudowany parser argumentów, dzięki któremu istnieje możliwość konfiguracji melodii na wiele sposobów. Dodatkowa pomoc i opis dla większości argumentów pomaga użytkownikowi prawidłowo wywołać program
+- Zastosowanie szerokiej gamy instrumentów, generowanie głównej melodii i basów osobno urozmaica tworzony utwór
+
+### Moje uwagi:
+- W projekcie mogła by się znajdować nieco bardziej treściwa dokumentacja opisująca funkcjonalności klas, metod i modułów
+- Niektóre argumenty funkcji są zbędne i nieużywane. Przykładowo w poniższej funkcji `shadowing`, `volume_range`, `delay_range` nie są wykorzystywane: 
+```python
+    def convert_sample_to_note(self, sample, start, end, key, pitch, shadowing=90,
+                               volume_range=list(range(90, 100)), duration_range=list(range(1, 2)),
+                               delay_range=list(range(1, 8))):
+        diff = 0
+        board_len = end - start
+        possible = Note.get_possible_notes(key)
+        copies = board_len / len(sample.matrix)
+        R_MAX = 15 + pitch
+        for time in range(start, end):
+            level = random.choice([-1, 0, 1, 2])
+            if time % len(sample.matrix[0]) == 0:
+                if random.randint(0, 100) < 40 and not self.bass:
+                    shadow = random.randint(-len(sample.matrix[0]), -5)
+                    shadow += time
+                    diff = 4
+                    for q in range(0, len(sample.matrix[0])):
+                        for w in range(0, len(sample.matrix)):
+                            if sample.matrix[w][(shadow + q) % len(sample.matrix[0])] == "X":
+                                pitch = R_MAX - w + 12 * diff
+                                if pitch in possible and shadow + q > 0:
+                                    n = Note(time=shadow + q, duration=1,
+                                             pitch=pitch)
+                                    self.board[shadow + q].append(n)
+                if not self.bass:
+                    diff = random.choice([0, 2])
+
+            for note in range(0, len(sample.matrix)):
+
+                if sample.matrix[note][(time - start) % len(sample.matrix[0])] == "X":
+
+                    pitch = R_MAX - note + 12 * diff
+                    if pitch in possible and random.randint(0, 100) < 100:
+                        n = Note(time=time, duration=1+random.choice(duration_range),
+                                 pitch=pitch)
+                        self.board[time].append(n)
+```
+- Powyższa funkcja posiada również bardzo dużo zagnieżdżonych pętli i warunków if, przez co rozważyłbym podzielenie jej na na mniejsze funkcje
+- Metoda read_instruments z klasy Parser mogła by być metodą statyczną:
+```python
+    def read_instruments(self):
+        with open("resources/instruments.txt") as f:
+            content = f.readlines()
+        comm = "list of instruments to use\nfor example\n-inst 1 2 3 4 5 6\nInstruments:\n"
+        for x in content:
+            comm += x
+        return comm
+```
+- Zmienna song w klasie Composer mogłaby być przypisywana w \_\_init\_\_, zamiast w metodzie compose:
+```python
+ def compose(self):
+
+        self.song = Song(self.tracks, self.length)
+```
+- W metodzie generate_sample w linii `a = [["." for k in range(sample_columns)] for x in range(sample_rows)]` zamiast zmiennych `k` i `x` można by użyć znaków `_` (zmienne `k` i `x` nie są nigdzie wykorzystywane)
+- W pewnych miejscach rozwazyłbym użycie parametrów nazwanych w celu poprawienia czytelności. Przykładowo: 
+```python
+self.samples.append(Sample.generate_sample(
+                    sample_lengths, sample_rows, step, pitch, intense, flow, seed_ratio, seed_range,
+                    down_willing_ratio))
+```
+
+### Podsumowując
+Projekt jest całkiem obszerny i został wykonany starannie. Podział na klasy i moduły poprawia czytelność co zdecydowanie pomogłoby przy ewentualnej refaktoryzacji czy rozbudowie programu. Projekt oceniam na bardzo dobry.

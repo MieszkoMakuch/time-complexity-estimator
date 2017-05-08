@@ -4,7 +4,7 @@ import logging
 
 class LogWith(object):
     """Logging decorator that allows you to log with a
-    specific logger.    
+    specific logger.
     """
 
     ENTRY_MESSAGE = 'Entering {}'

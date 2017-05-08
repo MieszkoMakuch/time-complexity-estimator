@@ -41,7 +41,7 @@ To do this:
     ```
     Output:
     ```
-    bubble_sort: Could not perform all measurements. Predicted time complexity: O(n^2), estimated time = -0.00011 + 1.9E-07*n^2
+    bubble_sort: Predicted time complexity: O(n^2), estimated time = -0.00011 + 1.9E-07*n^2
     	Estimated time for 10^6 elements: [ 191506.10531756] [sec]
     	Estimated no elements for 1 sec: 2285
     ```

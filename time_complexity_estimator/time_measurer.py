@@ -2,7 +2,9 @@ import logging
 import time
 from multiprocessing import Manager, Process
 from timeit import Timer
+
 import numpy as np
+
 from time_complexity_estimator.logging_decorant import LogWith
 
 

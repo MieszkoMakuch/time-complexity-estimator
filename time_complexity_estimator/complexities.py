@@ -28,19 +28,7 @@ class ComplexityClass:
 
     @LogWith()
     def compute_coefficients(self, no_measures, execution_times):
-        """ Fit complexity class parameters to timing data.
-
-        Input:
-        ------
-
-        no_measures -- Array of values of N for which execution time has been measured.
-
-        execution_times -- Array of execution times for each N in `ns`.
-
-        Output:
-        -------
-
-        residuals -- Sum of square errors of fit
+        """ Compute coefficients to timing data
         """
         x = self._transform_n(no_measures)
         y = self._transform_time(execution_times)
@@ -89,28 +77,17 @@ class ComplexityClass:
 
     # --- abstract methods
 
-    @classmethod
-    def format_str(cls):
-        """ Return a string describing the fitted function.
-
-        The string must contain one formatting argument for each coefficient.
-        """
+    @staticmethod
+    def format_str():
         return 'FORMAT STRING NOT DEFINED'
 
     def _transform_n(self, n):
-        """ Terms of the linear combination defining the complexity class.
-
-        Output format: number of Ns x number of coefficients .
-        """
         raise NotImplementedError()
 
     def _inverse_function(self, x):
         raise NotImplementedError()
 
     def _transform_time(self, t):
-        """ Transform time as needed for fitting.
-        (e.g., t->log(t)) for exponential class.
-        """
         return t
 
 
@@ -129,8 +106,8 @@ class Constant(ComplexityClass):
     def _inverse_function(self, x):
         return x
 
-    @classmethod
-    def format_str(cls):
+    @staticmethod
+    def format_str():
         return 'O(1), estimated time = {:.2G}'
 
 
@@ -141,8 +118,8 @@ class Linear(ComplexityClass):
     def _inverse_function(self, x):
         return x
 
-    @classmethod
-    def format_str(cls):
+    @staticmethod
+    def format_str():
         return 'O(n), estimated time = {:.2G} + {:.2G}*n'
 
 
@@ -153,8 +130,8 @@ class Quadratic(ComplexityClass):
     def _inverse_function(self, x):
         return np.sqrt(x)
 
-    @classmethod
-    def format_str(cls):
+    @staticmethod
+    def format_str():
         return 'O(n^2), estimated time = {:.2G} + {:.2G}*n^2'
 
 
@@ -165,8 +142,8 @@ class Cubic(ComplexityClass):
     def _inverse_function(self, x):
         return np.cbrt(x)
 
-    @classmethod
-    def format_str(cls):
+    @staticmethod
+    def format_str():
         return 'O(n^3), estimated time = {:.2G} + {:.2G}*n^3'
 
 
@@ -177,8 +154,8 @@ class Logarithmic(ComplexityClass):
     def _inverse_function(self, x):
         return np.exp(x)
 
-    @classmethod
-    def format_str(cls):
+    @staticmethod
+    def format_str():
         return 'O(log(n)), estimated time = {:.2G} + {:.2G}*log(n)'
 
 
@@ -189,8 +166,8 @@ class Linearithmic(ComplexityClass):
     def _inverse_function(self, x):
         return x / lambertw(x)
 
-    @classmethod
-    def format_str(cls):
+    @staticmethod
+    def format_str():
         return 'O(n*log(n)), estimated time = {:.2G} + {:.2G}*n*log(n)'
 
 
@@ -204,8 +181,8 @@ class Polynomial(ComplexityClass):
     def _transform_time(self, t):
         return np.log(t)
 
-    @classmethod
-    def format_str(cls):
+    @staticmethod
+    def format_str():
         return 'O(n^x), estimated time = {:.2G} * n^{:.2G}'
 
 
@@ -219,8 +196,11 @@ class Exponential(ComplexityClass):
     def _transform_time(self, t):
         return np.log(t)
 
-    @classmethod
-    def format_str(cls):
+    def _inverse_function(self, x):
+        return np.power(x, 1 / self.coefficients[1])
+
+    @staticmethod
+    def format_str():
         return 'O(x^n), estimated time = {:.2G} + {:.2G}^n'
 
 

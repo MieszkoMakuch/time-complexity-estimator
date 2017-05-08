@@ -4,7 +4,7 @@ pip install git+https://mieszko_makuch@bitbucket.org/mieszko_makuch/time-complex
 ```
 ## Usage
 
-Let's say you would like to compute time complexity of simple function that sorts list - `bubble_sort`.
+Let's say you would like to compute time complexity of simple function that sorts list - `bubble_sort`:
 ```python
 def bubble_sort(lst):
     l = lst[:]  # create a copy of lst
@@ -41,9 +41,9 @@ To do this:
     ```
     Output:
     ```
-    bubble_sort: Predicted time complexity: O(n^2), estimated time = -0.00038 + 2E-07*n^2
-        Estimated time for 10^6 elements: [ 203242.87944452] [sec]
-        Estimated no elements for 1 sec: 2218.58068214
+    bubble_sort: Could not perform all measurements. Predicted time complexity: O(n^2), estimated time = -0.00011 + 1.9E-07*n^2
+    	Estimated time for 10^6 elements: [ 191506.10531756] [sec]
+    	Estimated no elements for 1 sec: 2285
     ```
 
 ### **Note** that:

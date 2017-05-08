@@ -16,6 +16,7 @@ def run_time_complexity(function_name, timeout_after=5):
         time = init_time * 10 ** i
         print("    Estimated no elements for " + str(time) + " sec: " + str(estimated_n_elements(time)))
 
+
 # first_element
 run_time_complexity("first_element")
 

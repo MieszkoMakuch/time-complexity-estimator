@@ -24,7 +24,7 @@ def estimate_time_complexity(module_name, file_path, initializer_name, fun_to_te
 
     # Config logging
     logging.basicConfig(filename='estimate_time_complexity.log', level=logging.INFO,
-                        format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s',
+                        format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(msg)s',
                         datefmt="%Y-%m-%d %H:%M:%S")
 
     # Import functions from specified module
@@ -47,7 +47,7 @@ def estimate_time_complexity(module_name, file_path, initializer_name, fun_to_te
         return best.compute_time(numpy.array([n]))
 
     def estimated_n_elements_for_time(time_in_sec):
-        return best.compute_no_elements(time_in_sec)
+        return int(numpy.floor(best.compute_no_elements(time_in_sec)))
 
     logging.info("Finished estimating time complexity. Result: %s", formatted_message)
 

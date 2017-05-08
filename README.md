@@ -46,7 +46,7 @@ To do this:
         Estimated no elements for 1 sec: 2218.58068214
     ```
 
-###**Note** that:
+### **Note** that:
 - initializer must take one argument - number of elements
 - initializer must return only one argument
 - function which will be tested must take only one argument

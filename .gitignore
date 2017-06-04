@@ -138,7 +138,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
->>>>>>> e713359d0733811e984903f0386470281a897134
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

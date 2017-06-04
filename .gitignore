@@ -239,3 +239,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+/time_complexity_estimator.egg-info/
+/dist/
+/LICENSE
+/README.rst
+/LICENSE.txt
+/time_complexity_estimator/examples/estimate_time_complexity.log
